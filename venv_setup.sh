@@ -1,5 +1,8 @@
-pip install Flask
-pip install Flask-SQLAlchemy
+#!/bin/bash
+pip install MySQL-python
 
-export FLASK_APP=hello.py
-#flask run --host=0.0.0.0
+pip install Flask
+
+pip install Flask-SQLAlchemy #sql alchemy for ORM stuff
+pip install flask-mysqldb #this for straight up sql queries
+
